@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:  hsl(219, 28%, 10%);
+  /* hsl(218, 46%, 18%); */
+  color: white;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-size: 14px;
+  width:100%;
+}
+
+.navbar {
+  /* background-color: hsl(218, 46%, 18%); */
+  margin-top: 30px;
+}
+
+li a{
+  color: #fff;
+}
+
+li a:hover{
+  color: aliceblue;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
+footer {
+  background-color:hsl(216, 53%, 9%);
+  color: white;
+  /* height: 960%; */
+  z-index: -1;
+}
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Fixed Background Image --*/
+.center {
+  text-align: center;
+}
+
+.myimg {
+  /* color: hsl(218, 28%, 13%); */
+  padding: auto;
+  padding-top: 22px;
+  max-width: 100%;
+}
+
+.curvy{
+  background-color:  hsl(219, 28%, 10%);
+  /* padding-bottom: 550px; */
+  border:none;
+  /* background-color: green; */
+}
+
+.all-files,
+#stores {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  width: max-content;
+  height: max-content;
+  letter-spacing: 0.1em;
+}
+
+#stores {
+  margin-top: 110px;
+  letter-spacing: 0em;
+}
+
+.my-btn {
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  background: #2193b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  
+}
+
+.padding {
+  text-align: center;
+  /* background-color: darkblue; */
+  
+}
+
+
+.productive1{
+  margin-right: 28px;
+}
+
+/* card styling */
+
+.card-section{
+  display: flex;
+  /* border: 2px solid blueviolet; */
+  margin: 55px 0 5px 0;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #20373d;
+  padding: 60px;
+  margin-top: 30px;
+  width: fit-content;
+}
+
+.card-img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.card-word {
+  margin: -55px 0px 0px 70px; /* top right bottom left */
+}
+
+#quote {
+  z-index: -1;
+  margin-left: -8px;
+  margin-top: -2px;
+  /* padding: -7px; */
+  /* margin-right: 55px; */
+}
+
+.up-up {
+  margin-top: -10.5px;
+  /* margin-top: 50px; */
+}
+.display-4 {
+  background-color: #2a373a;
+  width: 60%;
+  height: 90%;
+  position: relative;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.up-up2{
+  color: white;
+  margin-bottom: 39px;
+  border-radius: 20px;
+  background-color:  #6dd5ed;
+  border:1px solid whitesmoke;
+}
+
+
+#email{
+  border-radius: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* width:220px; */
+}
+
+.down{
+  margin:150px 0px 0px 25px;   
+  /* background-color: pink; */
+  
+}
+
+.footer-section{
+   width: 100%;
+   display: flex;
+  justify-content: space-evenly;
+
+}
+
+.cyan{
+color: #62e0d9;
+text-decoration: underline;
+}
+
+.up-up3{
+  width: 450px;
+  line-height: 4px;
+
+}
+
+
+.icon-padding{
+  word-spacing: 10px;
+  line-height: 35px;
+}
+
+.icons{
+  padding: 30px;
+}
+
+#compress{
+ /* background:goldenrod; */
+ height:20px;
+ margin: 23px -30px 0 0 ;
+}
+
+.p-width{
+  width: 280px;
+  margin-top: 10px;
+}
+
+div .circle {
+
+  padding: 2.5px 0 0 0;
+  text-align: center;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: 0px 0px 2px white;
+  -webkit-box-shadow: 0px 0px 2px white;
+  box-shadow: 0px 0px 2px white;
+  border:1px solid #fff;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
